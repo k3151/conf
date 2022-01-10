@@ -1,1 +1,44 @@
-123123123
+install fonts
+https://www.nerdfonts.com/font-downloads
+Hack NF
+
+install scoop
+	iwr -useb get.scoop.sh | iex
+
+	scoop install curl
+
+install git 
+	winget install -e --id Git.Git
+
+install neovim fzf
+
+	scoop install veovim
+	scoop install fzf
+
+______________________
+create 
+	.config\powershell\user_profile.ps1
+	.config\powershell\jandedobbeleer.omp.json
+
+
+
+$PROFILE
+profile.ps1
+	. $env:USERPROFILE\.config\powershell\user_profile.ps1
+
+.config\powershell\user_profile.ps1
+	function Get-ScriptDirectory { Split-Path $MyInvocation.ScriptName }
+	$PROMPT_CONFIG = Join-Path (Get-ScriptDirectory) 'jandedobbeleer.omp.json'
+	oh-my-posh --init --shell pwsh --config $PROMPT_CONFIG | Invoke-Expression
+
+
+Install oh-my-posh z PSReadline
+	Install-Module oh-my-posh -Scope CurrentUser -Force
+	Install-Module -Name Terminal-Icons -Repository PSGallery
+	Install-Module -Name z -Force
+	Install-Module -Name PSReadline -AllowPrerelease -Scope CurrentUser -Force -SkipPublisherCheck
+
+Oh-My-Posh Theme
+	https://ohmyposh.dev/docs/themes
+
+Get-PoshThemes cert
