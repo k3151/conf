@@ -1,1 +1,1 @@
-test Readme
+manual config win unix 
