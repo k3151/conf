@@ -1,1 +1,21 @@
+sudo apt install zsh
+sudo apt install autojump
+sudo apt install curl
+sudo apt install fonts-powerline
+sudo apt-get install zsh-syntax-highlighting
+sudo apt install zsh-autosuggestions
+
+
+curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
+
+echo "source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ~/.zshrc
+
+echo "source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh" >> ~/.zshrc
+echo "source ZSH_THEME=agnoster " >> ~/.zshrc
+
+
+sudo nano ~/.bashrc
+exec zsh
+
+
 
