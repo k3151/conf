@@ -1,0 +1,5 @@
+C:\Users\user\.config
+
+
+$PROFILE
+. $env:USERPROFILE\.config\powershell\user_profile.ps1
