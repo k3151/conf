@@ -28,9 +28,9 @@ https://github.com/lincheney/fzf-tab-completion.git
 Add to your ~/.zshrc:
 
 source /path/to/fzf-tab-completion/zsh/fzf-zsh-completion.sh
-bindkey '^I' fzf_completion
-#If you have also enabled fzf's zsh completion, then the bindkey line is optional.
 
+#key bind ctrl+space
+/home/user/.fzf/shell/key-bindings.zsh
 
 WLS fonts 
 https://www.nerdfonts.com/font-downloads
