@@ -15,3 +15,7 @@ echo $MYVIMRC - win
 echo stdpath('config') - ubuntu
 
 
+#Для сохранения конфига в WSL нужно сохранить файл с параметром 
+:w ++ff=unix
+
+
