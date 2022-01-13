@@ -11,5 +11,7 @@ create C:\Users\user\AppData\Local\nvim\init.vim
 start veovim 
 :PlugInstall
 
+echo $MYVIMRC - win
+echo stdpath('config') - ubuntu
 
 
