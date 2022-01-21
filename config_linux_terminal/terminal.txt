@@ -24,8 +24,8 @@ git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 
 #fzf-tab-completion
 
-https://github.com/lincheney/fzf-tab-completion.git
-Add to your ~/.zshrc:
+git clone https://github.com/lincheney/fzf-tab-completion.git
+Add to your ~/.zshrc: "source /home/k315/fzf-tab-completion/zsh/fzf-zsh-completion.sh"
 
 source /path/to/fzf-tab-completion/zsh/fzf-zsh-completion.sh
 
