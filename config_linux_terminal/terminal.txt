@@ -29,6 +29,10 @@ Add to your ~/.zshrc:
 
 source /path/to/fzf-tab-completion/zsh/fzf-zsh-completion.sh
 
+#Optional 
+  apt install gawk
+
+
 #key bind ctrl+space
 /home/user/.fzf/shell/key-bindings.zsh
 bindkey '^ ' fzf-history-widget
