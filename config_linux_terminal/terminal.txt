@@ -26,10 +26,10 @@ git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 git clone https://github.com/Aloxaf/fzf-tab ~/somewhere
 echo "source ~/somewhere/fzf-tab.plugin.zsh" >> ~/.zshrc
 
-git clone https://github.com/lincheney/fzf-tab-completion.git
-Add to your ~/.zshrc:
+#git clone https://github.com/lincheney/fzf-tab-completion.git
+#Add to your ~/.zshrc:
 
-source /path/to/fzf-tab-completion/zsh/fzf-zsh-completion.sh
+#source /path/to/fzf-tab-completion/zsh/fzf-zsh-completion.sh
 
 #Optional 
   apt install gawk
