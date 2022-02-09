@@ -45,6 +45,7 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
 cp /home/vm01/.oh-my-zsh/custom/themes/powerlevel10k /home/vm01/.oh-my-zsh/themes/
 p10k configure
 # Set ZSH_THEME="powerlevel10k/powerlevel10k" in ~/.zshrc
+p10k configure
 
 
 WLS fonts 
