@@ -4,3 +4,4 @@ mkdir /home/user/.config
 mkdir /home/user/.config/nvim
 
 #file init.vim
+sudo nano .config/nvim/init.vim
