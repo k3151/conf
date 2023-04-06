@@ -1,0 +1,4 @@
+<?xml version="1.0" ?>
+<apport>
+  <ignore program="/usr/bin/nautilus" mtime="1663614248"/>
+</apport>

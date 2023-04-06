@@ -1,0 +1,47 @@
+
+
+Sun Dec 11 22:29:08 2022
+Command line: TestDisk
+
+TestDisk 7.1, Data Recovery Utility, July 2019
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Linux, kernel 5.19.0-26-generic (#27-Ubuntu SMP PREEMPT_DYNAMIC Wed Nov 23 20:44:15 UTC 2022) x86_64
+Compiler: GCC 11.2
+ext2fs lib: 1.46.5, ntfs lib: libntfs-3g, reiserfs lib: none, ewf lib: none, curses lib: ncurses 6.3
+User is not root!
+Hard disk list
+
+
+TestDisk exited normally.
+Using locale 'ru_RU.UTF-8'.
+
+
+Sun Dec 11 22:29:08 2022
+Command line: TestDisk /debug
+
+TestDisk 7.1, Data Recovery Utility, July 2019
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Linux, kernel 5.19.0-26-generic (#27-Ubuntu SMP PREEMPT_DYNAMIC Wed Nov 23 20:44:15 UTC 2022) x86_64
+Compiler: GCC 11.2
+ext2fs lib: 1.46.5, ntfs lib: libntfs-3g, reiserfs lib: none, ewf lib: none, curses lib: ncurses 6.3
+Warning: can't get size for Disk /dev/mapper/control - 0 B - 0 sectors, sector size=512
+Warning: can't get size for Disk /dev/loop11 - 0 B - 0 sectors, sector size=512
+Hard disk list
+Disk /dev/sda - 21 GB / 20 GiB - CHS 2610 255 63, sector size=512 - VMware, VMware Virtual S, FW:1.0
+Disk /dev/loop0 - 4096 B - 8 sectors (RO), sector size=512
+Disk /dev/loop1 - 66 MB / 63 MiB - 129520 sectors (RO), sector size=512
+Disk /dev/loop10 - 290 KB / 284 KiB - 568 sectors (RO), sector size=512
+Disk /dev/loop2 - 66 MB / 63 MiB - 129496 sectors (RO), sector size=512
+Disk /dev/loop3 - 249 MB / 237 MiB - 486528 sectors (RO), sector size=512
+Disk /dev/loop4 - 249 MB / 237 MiB - 486424 sectors (RO), sector size=512
+Disk /dev/loop5 - 96 MB / 91 MiB - 187776 sectors (RO), sector size=512
+Disk /dev/loop6 - 48 MB / 45 MiB - 94056 sectors (RO), sector size=512
+Disk /dev/loop7 - 363 MB / 346 MiB - 709280 sectors (RO), sector size=512
+Disk /dev/loop8 - 311 KB / 304 KiB - 608 sectors (RO), sector size=512
+Disk /dev/loop9 - 52 MB / 49 MiB - 101624 sectors (RO), sector size=512
+
+Partition table type (auto): EFI GPT
+
+TestDisk exited normally.
