@@ -17,6 +17,8 @@ export ZSH="$HOME/.oh-my-zsh"
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="powerlevel10k"
 
+
+#PS1="[%n %1 ~% ] # "
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
 # a theme from this variable instead of looking in $ZSH/themes/
@@ -106,7 +108,13 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
 alias apt="sudo apt"
+alias cat="bat"
+alias zshconfig="micro /home/vm02/.zshrc"
+alias zshupdate="source /home/vm02/.zshrc"
+alias ls="lsd"
+
 
 source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
@@ -116,4 +124,5 @@ source ~/somewhere/fzf-tab.plugin.zsh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=60'
+#ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fd=60'
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=67'
